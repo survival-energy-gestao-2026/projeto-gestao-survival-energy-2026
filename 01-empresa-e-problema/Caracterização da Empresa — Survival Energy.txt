@@ -1,0 +1,41 @@
+Caracterização da empresa Survival Energy
+1 Nome e ramo da empresa
+A Survival Energy será a referência de uma marca de vestuário de moda urbana neste estudo. A página Survival na Oak Peak apresenta camisetas da marca. Camisetas e moletons serão as duas categorias adotadas na simulação acadêmica.
+Neste projeto, a marca será utilizada como referência para um estudo acadêmico. Os dados operacionais e financeiros serão simulados, sem representar informações internas da empresa.
+2 Produtos considerados no estudo
+O projeto trabalhará com duas categorias de produtos:
+* Camisetas: peças nos tamanhos P, M, G e GG.
+* Moletons: peças nos tamanhos P, M, G e GG.
+O recorte em duas categorias permite comparar vendas, custos e margem de contribuição e formular um modelo de produção com duas variáveis de decisão: total de camisetas e total de moletons. Os tamanhos serão usados na análise das vendas, sem otimização por tamanho.
+Os modelos específicos, tamanhos disponíveis, preços, custos e quantidades utilizados na análise serão definidos para a simulação. Não representarão necessariamente o catálogo ou os valores praticados pela marca.
+3 Público e operação do cenário simulado
+Para fins acadêmicos, será considerado um público de jovens e adultos entre 18 e 35 anos, interessados em moda urbana e compras pela internet. Essa faixa etária é uma hipótese do projeto, e não uma informação confirmada sobre os clientes da Survival.
+O cenário simulado terá vendas por comércio eletrônico e entregas em três regiões: Sudeste, Sul e Nordeste. A distribuição partirá de dois centros fictícios, identificados como Centro A e Centro B.
+
+
+A operação considerada envolverá:
+* Planejamento das quantidades de camisetas e moletons.
+* Análise de vendas e disponibilidade simulada por produto e tamanho.
+* Organização de dados fictícios de pedidos, itens vendidos, receitas, descontos, custos e frete.
+* Simulação de distribuição entre Centro A, Centro B e as regiões Sudeste, Sul e Nordeste.
+* Definição de acessos e proteção dos arquivos usados pelo grupo no ambiente acadêmico.
+O estudo buscará maximizar a margem de contribuição do mix de produção e minimizar o custo de transporte. Os modelos usarão um período comum e quantidades em peças; a oferta, a demanda e os recursos do cenário de referência deverão permitir um plano inicial viável.
+4 Fontes para a caracterização pública da marca
+As informações públicas utilizadas na caracterização serão fundamentadas nas seguintes fontes:
+* Site oficial da Survival Energy: endereço institucional da marca. Na consulta realizada, a loja apresentou uma página de acesso por senha, sem catálogo público disponível. Referência: Site oficial da Survival Energy.
+* Página Survival na Oak Peak: fonte complementar para a apresentação pública da marca e das camisetas disponíveis nessa loja. A página atribui a criação da Survival Energy em 2019 a Miguel, conhecido como Whodatmig. Referência: Survival na Oak Peak.
+Consulta das fontes públicas: out. 5, 2026.
+Essas fontes sustentam apenas a apresentação pública da marca. Elas não fornecem os dados internos de vendas, custos, clientes ou logística usados na simulação.
+5 Premissas do cenário acadêmico
+São premissas da simulação, sem correspondência afirmada com a operação real:
+* O perfil etário definido para o público.
+* Os dois centros de distribuição e as três regiões de atendimento do modelo.
+* O histórico de vendas e a demanda por produto, tamanho e região.
+* Os preços, descontos, custos de produção e valores de frete utilizados nos cálculos.
+* As quantidades em estoque e a capacidade de produção.
+* O orçamento disponível e os limites de recursos.
+* Os processos internos, funções e permissões de acesso.
+* Os problemas de planejamento, estoque e distribuição analisados.
+* As ameaças, situações de risco e incidentes hipotéticos de segurança.
+As mesmas premissas orientarão o TAP, os requisitos, os notebooks de análise, os modelos de Pesquisa Operacional e a documentação de Segurança da Informação.
+O projeto não constitui um diagnóstico real da Survival Energy e não afirma que a empresa possui os problemas ou a estrutura operacional descritos. Não serão utilizados dados pessoais reais de clientes.

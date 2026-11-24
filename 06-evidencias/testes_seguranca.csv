@@ -1,0 +1,8 @@
+﻿teste,resultado,criterio
+formula_csv,PASSOU,Entrada rejeitada antes do cálculo
+quantidade_negativa,PASSOU,Entrada rejeitada antes do cálculo
+quantidade_nan,PASSOU,Entrada rejeitada antes do cálculo
+desconto_excessivo,PASSOU,Entrada rejeitada antes do cálculo
+data_invalida,PASSOU,Entrada rejeitada antes do cálculo
+categoria_fora_lista,PASSOU,Entrada rejeitada antes do cálculo
+duplicidade,PASSOU,Um único item mantido

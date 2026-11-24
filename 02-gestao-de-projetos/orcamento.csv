@@ -1,0 +1,10 @@
+﻿recurso,horas_estimadas,valor_hora_reais,custo_estimado_reais
+A Gestão e integração,24,60,1440
+B Dados e documentação,30,60,1800
+C Estatística e relatório,28,60,1680
+D Segurança,24,60,1440
+E Otimização,30,60,1800
+Revisão conjunta e gravação,20,60,1200
+Subtotal de trabalho,156,60,9360
+Reserva de contingência 10%,0,0,936
+TOTAL ECONÔMICO,0,0,10296

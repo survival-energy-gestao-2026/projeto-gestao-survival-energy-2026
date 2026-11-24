@@ -1,0 +1,88 @@
+Termo de Abertura do Projeto Survival Energy
+1 Nome do projeto
+Planejamento de produção e distribuição da Survival Energy com Python. Estudo acadêmico com dados fictícios para apoiar decisões sobre camisetas e moletons.
+2 Equipe
+A equipe terá cinco integrantes, com os papéis abaixo. A divisão organiza as entregas; todos participarão da revisão, dos testes e da apresentação.
+Integrante
+	Responsabilidade principal
+	Integrante A
+	Gestão do projeto, TAP, EAP, cronograma, matriz RACI e integração das entregas.
+	Integrante B
+	Base fictícia, dicionário de dados e script de carga, limpeza e validação.
+	Integrante C
+	Indicadores de vendas e custos, estatísticas, gráficos e interpretação dos resultados.
+	Integrante D
+	Inventário de ativos, ameaças, matriz GUT, políticas de acesso, privacidade e resposta a incidentes.
+	Integrante E
+	Modelos de maximização da margem e minimização do transporte, validação e comparação de cenários.
+	Cada entrega terá um responsável por executar e outro por revisar, registrados na matriz RACI. Os cinco integrantes participarão da apresentação final.
+Os nomes completos e RAs serão informados somente no documento final enviado diretamente ao professor. Os materiais públicos utilizarão as identificações A, B, C, D e E.
+3 Justificativa
+No cenário acadêmico inspirado na Survival Energy, as vendas de camisetas e moletons são registradas em arquivos separados e consolidadas manualmente. O planejamento das quantidades e da distribuição não utiliza indicadores padronizados de vendas, margem e frete.
+Esse processo dificulta identificar os produtos e tamanhos mais vendidos, comparar margens e decidir quanto produzir e como distribuir. No cenário simulado, escolhas sem comparação de alternativas podem gerar excesso ou falta de produtos e um custo de transporte maior que o necessário.
+O projeto desenvolverá scripts Python para tratar os dados e gerar indicadores e gráficos, um modelo para maximizar a margem de contribuição do mix de produção e outro para minimizar o custo de transporte. A Gestão de Projetos organizará as entregas e a Segurança da Informação definirá a proteção dos arquivos e acessos.
+Os problemas e dados são fictícios e definidos para o estudo acadêmico. A Survival Energy é uma referência de contexto; não há diagnóstico de sua operação real. O plano inicial viável será registrado antes da otimização para permitir comparar os resultados sem alterar as condições do problema.
+4 Objetivos SMART
+Os objetivos definem o resultado esperado, a forma de verificação e o prazo. As metas de negócio serão avaliadas na simulação; a execução usará recursos disponíveis ao grupo.
+Objetivo
+	Critério mensurável
+	Prazo proposto
+	Automatizar a organização e a validação das vendas simuladas.
+	Entregar base original, dicionário, base tratada e script Python. Validar 100% das linhas mantidas e registrar correções e exclusões por campos, formatos, duplicidades e valores inválidos.
+	18/10/2026
+	Disponibilizar indicadores para decidir sobre produtos e custos.
+	Calcular receita após descontos, margem de contribuição e frete médio por pedido. Aplicar ao menos três conceitos estatísticos, com gráficos e interpretação por produto, tamanho ou região.
+	01/11/2026
+	Maximizar a margem de contribuição do mix de produção.
+	Resolver em Python um modelo de quantidades inteiras de camisetas e moletons, respeitando recursos, capacidade e demanda máxima. Comparar a margem com a de um plano inicial viável sob as mesmas condições.
+	01/11/2026
+	Minimizar o custo de distribuição do cenário simulado.
+	Resolver em Python o transporte entre dois centros fictícios e três regiões, atender 100% da demanda e respeitar a oferta. Comparar custo e variação percentual com um plano inicial viável, mantendo as mesmas condições.
+	01/11/2026
+	Verificar o efeito de mudanças na demanda ou nos custos.
+	Executar ao menos um cenário alternativo em cada modelo, alterando uma condição por comparação. Registrar decisões, resultados e viabilidade antes e depois da mudança.
+	15/11/2026
+	Definir e demonstrar a proteção das informações do projeto.
+	Entregar inventário de ativos, pelo menos 20 ameaças com GUT, 20 políticas de acesso, mapeamento de privacidade e plano de resposta a incidentes, com evidências dos controles aplicados no ambiente acadêmico.
+	15/11/2026
+	Entregar e apresentar o estudo integrado e reproduzível.
+	Entregar relatório final, repositório com instruções e notebooks executáveis do início ao fim. Produzir vídeo de 8 a 15 minutos com participação dos cinco integrantes e demonstração dos resultados.
+	30/11/2026
+	As datas são propostas de planejamento do grupo e deverão ser conciliadas com o calendário oficial da turma.
+O ganho de margem e a economia no transporte serão calculados após a execução, comparando planos viáveis sob as mesmas condições. Se não houver melhoria, o resultado será explicado. Percentuais não serão apresentados como ganhos reais da empresa.
+5 Escopo IN O que faremos
+* Base fictícia de vendas de camisetas e moletons, acompanhada de dicionário de dados.
+* Análise das vendas por produto, tamanhos P, M, G e GG e regiões de destino.
+* Script Python para carga, limpeza e validação, com base tratada e registro das alterações.
+* Notebook com os três indicadores, ao menos três conceitos estatísticos, gráficos e conclusões.
+* Modelo em Python para maximizar a margem de contribuição das quantidades totais de camisetas e moletons.
+* Modelo em Python para minimizar o custo de transporte entre dois centros fictícios e três regiões, respeitando oferta e demanda.
+* Planos iniciais viáveis e comparação com os resultados otimizados e ao menos um cenário alternativo por modelo.
+* Inventário de ativos, pelo menos 20 ameaças com GUT, 20 políticas de acesso e mapeamento de privacidade do cenário.
+* Plano de resposta a incidentes e evidências dos controles implementados nos arquivos e acessos do grupo.
+* TAP, EAP, cronograma, matriz RACI e acompanhamento das atividades, dos custos e dos riscos do projeto.
+* Repositório organizado, instruções de execução, evidências, referências, relatório final e vídeo de apresentação.
+Os códigos serão executados no Google Colab ou Jupyter. Tabelas e gráficos nos notebooks serão a interface de consulta dos resultados.
+6 Escopo OUT O que não faremos
+* Desenvolvimento de aplicativo mobile.
+* Desenvolvimento de loja virtual ou dashboard web completo.
+* Integração com sistemas, contas ou bancos de dados reais da Survival Energy.
+* Coleta ou utilização de dados pessoais reais de clientes.
+* Fabricação, comercialização ou transporte real de produtos.
+* Implantação dos controles nos sistemas da marca.
+* Algoritmo de previsão por aprendizado de máquina; a demanda será um parâmetro explícito do cenário.
+* Análise de todo o catálogo ou de toda a operação real da empresa.
+O modelo de produção otimizará quantidades totais por categoria. Os tamanhos serão analisados nas vendas, mas não serão variáveis de decisão desse modelo.
+7 Stakeholders Partes interessadas
+Parte interessada
+	Papel no projeto
+	Equipe de desenvolvimento com cinco integrantes
+	Executa planejamento, códigos, análises, controles, testes, documentação e apresentação.
+	Gestor da empresa simulada
+	Sponsor fictício: define as prioridades e os limites de recursos do negócio no cenário acadêmico.
+	Responsável pelo planejamento simulado
+	Usuário final fictício: consulta indicadores e valida a utilidade do mix de produção proposto.
+	Responsável pela logística simulada
+	Usuário final fictício: avalia o plano de distribuição, a demanda atendida e os custos de transporte.
+	Sponsor e usuários de negócio são personagens funcionais do cenário fictício. O professor é o aprovador acadêmico; esses papéis não representam funcionários reais da Survival Energy.
+Situação do TAP: proposta para revisão do grupo e validação acadêmica pelo professor.

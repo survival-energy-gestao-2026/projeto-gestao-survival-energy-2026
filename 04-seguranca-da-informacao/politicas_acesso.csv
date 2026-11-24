@@ -1,0 +1,21 @@
+﻿id,politica,justificativa,fonte,estado
+P01,Identidade individual,Cada integrante usa sua própria conta. Isso permite relacionar alterações ao responsável.,Authentication,Proposta a verificar nas contas; controles de código separados
+P02,Autenticação multifator,O proprietário e editores devem ativar MFA no provedor; reduz o impacto de uma senha roubada.,Authentication,Proposta a verificar nas contas; controles de código separados
+P03,Senha exclusiva,A senha da conta não deve ser repetida em outros serviços; evita reutilização após vazamentos.,Authentication,Proposta a verificar nas contas; controles de código separados
+P04,Recuperação protegida,Revisar canais de recuperação e guardar códigos em local restrito; reduz sequestro por recuperação frágil.,Authentication,Proposta a verificar nas contas; controles de código separados
+P05,Sessões em dispositivos compartilhados,Sair da conta ao terminar e bloquear o equipamento ao se afastar; protege a sessão aberta.,Authentication,Proposta a verificar nas contas; controles de código separados
+P06,Nova autenticação para alterações sensíveis,"Confirmar a identidade no provedor ao mudar senha ou opções de recuperação, quando oferecido.",Authentication,Proposta a verificar nas contas; controles de código separados
+P07,Sem envio de códigos de acesso,"Não compartilhar OTP, senha nem códigos de recuperação no chat do grupo.",Authentication,Proposta a verificar nas contas; controles de código separados
+P08,Login exclusivamente no provedor,O notebook não coleta senhas; autenticação permanece no Google. Evita criar um banco de credenciais desnecessário.,Authentication,Proposta a verificar nas contas; controles de código separados
+P09,Menor privilégio,Somente executores precisam de edição; revisores externos e professor recebem leitura quando apropriado.,Authorization,Proposta a verificar nas contas; controles de código separados
+P10,Negação por padrão,Não conceder edição a qualquer pessoa com o link; cada autorização deve ser deliberada.,Authorization,Proposta a verificar nas contas; controles de código separados
+P11,Papéis revisados,"A cuida da organização, B da base, C da análise, D da revisão de segurança e E dos modelos; permissões devem refletir a necessidade real.",Authorization,Proposta a verificar nas contas; controles de código separados
+P12,Revisão semanal de acesso,Conferir quem ainda precisa dos arquivos antes de cada marco; reduz acesso acumulado.,Authorization,Proposta a verificar nas contas; controles de código separados
+P13,Desligamento,Retirar acesso de quem deixar a equipe após preservar a contribuição e a versão necessária.,Authorization,Proposta a verificar nas contas; controles de código separados
+P14,Separação da identificação,Nomes e RAs ficam no documento de envio direto; o conjunto compartilhado usa A a E.,Authorization,Proposta a verificar nas contas; controles de código separados
+P15,Original preservado,Editar cópias de trabalho e manter referência original; a política evita que limpeza destrua a evidência de origem.,A08,Proposta a verificar nas contas; controles de código separados
+P16,Saídas revisadas antes de compartilhar,"Verificar conteúdo de PDFs, imagens e notebooks, pois permissões corretas não removem dados já expostos no arquivo.",A02,Proposta a verificar nas contas; controles de código separados
+P17,Aplicativos conectados,Autorizar apenas escopos necessários e revisar acessos de aplicativos; o notebook funciona sem credenciais extras.,A02,Proposta a verificar nas contas; controles de código separados
+P18,Execução de terceiros,Executar notebook recebido somente após revisão de células e dependências. Permissão de leitura não equivale a confiar no código.,A08,Proposta a verificar nas contas; controles de código separados
+P19,Acesso às evidências,Permitir leitura das comprovações técnicas e manter registros pessoais do grupo em ambiente restrito.,Authorization,Proposta a verificar nas contas; controles de código separados
+P20,Acesso emergencial,"Em incidente, o proprietário limita acessos afetados e registra a decisão; só restaura acesso após revisão.",Authorization,Proposta a verificar nas contas; controles de código separados

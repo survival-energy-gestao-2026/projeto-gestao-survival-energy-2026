@@ -1,0 +1,21 @@
+﻿id,ameaca,G,U,T,cenario,controle,fonte,GUT
+S01,Injeção de fórmula em CSV,4,5,5,Campo de região recebe conteúdo interpretável como fórmula ao abrir uma exportação em planilha.,Esquema fechado e categorias permitidas; teste de rejeição de fórmula.,OWASP CSV Injection,100
+S05,Roubo de senha por phishing,5,4,4,Uma página falsa obtém a senha da conta que edita o Drive.,"MFA, atenção ao domínio e recuperação de conta.",OWASP Authentication,80
+S09,Notebook de origem não confiável,5,4,4,Um arquivo recebido contém código que lê arquivos da sessão.,Revisar células antes de executar; não montar dados privados sem necessidade.,OWASP A08,80
+S15,Segredo gravado em código,5,4,4,Token em uma célula é copiado junto com o notebook.,Não usar credenciais no código; revogar qualquer segredo exposto.,OWASP A02,80
+S02,Compartilhamento excessivo,4,4,4,Um link com edição permite que terceiros modifiquem a base ou o notebook.,Revisão de permissões e edição limitada ao grupo.,OWASP A01,64
+S12,Substituição da base,4,4,4,Um editor altera números plausíveis e influencia os resultados.,"Preservar original, histórico e hash de referência confiável.",OWASP A08,64
+S14,Vazamento por saída do notebook,4,4,4,Uma impressão de depuração inclui dados privados de outro arquivo.,Usar somente base simulada e revisar as saídas.,OWASP A02,64
+S17,Valores especiais invalidam cálculos,4,4,4,"NaN, infinito ou descontos indevidos contaminam indicadores.","Verificar finitude, tipos e intervalos antes de agregar.",OWASP Input Validation,64
+S06,Reutilização de senha,5,4,3,Credenciais vazadas de outro serviço permitem tomada da conta.,Senha exclusiva e gerenciador; MFA no provedor.,OWASP Authentication,60
+S07,Sequestro de sessão,5,3,4,Uma sessão em computador compartilhado fica disponível a outra pessoa.,Encerrar sessão e bloquear a estação.,OWASP Authentication,60
+S08,Concessão OAuth excessiva,5,3,4,Aplicativo conectado recebe acesso além do necessário ao projeto.,Revisar aplicativos autorizados e escopos.,OWASP A02,60
+S10,Dependência comprometida,5,3,4,Pacote instalado durante a análise executa conteúdo indevido.,Usar pacotes oficiais e registrar versões; revisar atualizações.,OWASP A03,60
+S03,Acesso mantido após saída,4,3,4,Um ex-integrante continua com acesso aos arquivos de trabalho.,Remover concessões após revisão do proprietário.,OWASP A01,48
+S11,Dependência desatualizada,4,3,4,Biblioteca antiga expõe uma vulnerabilidade conhecida.,Verificar avisos oficiais e atualizar em cópia testada.,OWASP A03,48
+S13,Alteração dos parâmetros do modelo,4,4,3,Margens ou limites são modificados sem revisão e geram decisões diferentes.,Parâmetros explícitos e conferência independente.,OWASP A08,48
+S16,Arquivo grande esgota memória,3,4,4,CSV excessivo bloqueia a sessão e impede as análises.,Limite de 5 MB e 10 mil linhas; rejeitar antes do processamento principal.,OWASP Input Validation,48
+S20,Recuperação a partir de cópia adulterada,4,3,4,Backup substituído restaura código ou dados incorretos.,Comparar hashes confiáveis e executar testes após restaurar.,OWASP A08,48
+S04,Conta compartilhada,4,3,3,Várias pessoas usam a mesma identidade e não há atribuição de mudanças.,Contas individuais e histórico de edição.,OWASP Authentication,36
+S18,Logs manipulados ou insuficientes,3,3,4,Sem registro não é possível explicar exclusões ou localizar mudanças.,Log estruturado com identificadores seguros e motivos.,OWASP A09,36
+S19,Exposição de dados em logs,4,3,3,Mensagens de erro copiam conteúdo pessoal desnecessário.,"Registrar identificador técnico e motivo, sem linha bruta.",OWASP A09,36

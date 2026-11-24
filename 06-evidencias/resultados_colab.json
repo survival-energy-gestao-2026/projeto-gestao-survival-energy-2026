@@ -1,0 +1,214 @@
+{
+  "dados": {
+    "linhas_validas": 322,
+    "pedidos": 237,
+    "pecas": 524,
+    "receita": 58189.5,
+    "margem": 29254.5,
+    "frete_total": 6826.0,
+    "frete_medio": 28.80168776371308,
+    "ticket_medio": 245.5253164556962,
+    "ticket_mediana": 180.0,
+    "ticket_desvio": 151.2867457548977,
+    "ticket_assimetria": 1.2541021855990044,
+    "pearson_quant_receita": 0.84051540354489,
+    "limite_outlier_frete": 47.0,
+    "pedidos_outliers": [
+      "P0035",
+      "P0080",
+      "P0155",
+      "P0220"
+    ],
+    "produtos": {
+      "Camiseta": {
+        "pecas": 379,
+        "receita": 32881.5,
+        "margem": 17721.5
+      },
+      "Moletom": {
+        "pecas": 145,
+        "receita": 25308.0,
+        "margem": 11533.0
+      }
+    },
+    "regioes": {
+      "Nordeste": {
+        "pecas": 99,
+        "receita": 11272.5,
+        "margem": 5607.5
+      },
+      "Sudeste": {
+        "pecas": 250,
+        "receita": 27423.0,
+        "margem": 13848.0
+      },
+      "Sul": {
+        "pecas": 175,
+        "receita": 19494.0,
+        "margem": 9799.0
+      }
+    },
+    "tamanhos": {
+      "G": {
+        "pecas": 202,
+        "receita": 23157.0,
+        "margem": 11557.0
+      },
+      "P": {
+        "pecas": 89,
+        "receita": 9454.5,
+        "margem": 4794.5
+      },
+      "M": {
+        "pecas": 159,
+        "receita": 17289.0,
+        "margem": 8784.0
+      },
+      "GG": {
+        "pecas": 74,
+        "receita": 8289.0,
+        "margem": 4119.0
+      }
+    },
+    "linhas_originais": 328,
+    "excluidas": 6,
+    "normalizadas": 2
+  },
+  "otimizacao": {
+    "producao_base": {
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "quantidades": [
+        400,
+        108
+      ],
+      "margem": 29180,
+      "consumo": [
+        257.2,
+        750.0,
+        26260.0,
+        508.0
+      ],
+      "folga": [
+        2.8000000000000114,
+        0.0,
+        3740.0,
+        92.0
+      ]
+    },
+    "producao_crise": {
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "quantidades": [
+        400,
+        44
+      ],
+      "margem": 23740,
+      "consumo": [
+        199.60000000000002,
+        590.0,
+        20180.0,
+        444.0
+      ],
+      "folga": [
+        0.39999999999997726,
+        160.0,
+        9820.0,
+        156.0
+      ]
+    },
+    "transporte_base": {
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "rotas": [
+        300,
+        0,
+        0,
+        0,
+        180,
+        120
+      ],
+      "custo": 2820,
+      "ofertas_usadas": [
+        300,
+        300
+      ],
+      "demanda_atendida": [
+        300,
+        180,
+        120
+      ]
+    },
+    "transporte_crise": {
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "rotas": [
+        300,
+        0,
+        0,
+        0,
+        180,
+        120
+      ],
+      "custo": 2820,
+      "ofertas_usadas": [
+        300,
+        300
+      ],
+      "demanda_atendida": [
+        300,
+        180,
+        120
+      ]
+    }
+  },
+  "planos_iniciais": {
+    "producao": [
+      300,
+      120
+    ],
+    "transporte": [
+      150,
+      100,
+      100,
+      150,
+      80,
+      20
+    ]
+  },
+  "sha256_original": "b3cde3607648d44520815b44057f4967204392a6e6bc376ae4f35fab16c8e1c5",
+  "testes": [
+    {
+      "teste": "formula_csv",
+      "resultado": "PASSOU",
+      "criterio": "Entrada rejeitada antes do cálculo"
+    },
+    {
+      "teste": "quantidade_negativa",
+      "resultado": "PASSOU",
+      "criterio": "Entrada rejeitada antes do cálculo"
+    },
+    {
+      "teste": "quantidade_nan",
+      "resultado": "PASSOU",
+      "criterio": "Entrada rejeitada antes do cálculo"
+    },
+    {
+      "teste": "desconto_excessivo",
+      "resultado": "PASSOU",
+      "criterio": "Entrada rejeitada antes do cálculo"
+    },
+    {
+      "teste": "data_invalida",
+      "resultado": "PASSOU",
+      "criterio": "Entrada rejeitada antes do cálculo"
+    },
+    {
+      "teste": "categoria_fora_lista",
+      "resultado": "PASSOU",
+      "criterio": "Entrada rejeitada antes do cálculo"
+    },
+    {
+      "teste": "duplicidade",
+      "resultado": "PASSOU",
+      "criterio": "Um único item mantido"
+    }
+  ],
+  "metodo": "SciPy MILP e conferência independente por enumeração"
+}

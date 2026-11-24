@@ -1,0 +1,11 @@
+﻿id,risco,probabilidade,impacto,resposta
+G01,Dados inconsistentes,4,4,Validar esquema e manter original; B revisa o registro de exclusões
+G02,Atraso nas revisões,4,5,Entregas pequenas com revisor; A prioriza itens obrigatórios
+G03,Perda de arquivos,2,5,Backup exportado e teste de restauração; D
+G04,Notebook falhar em outra sessão,3,5,Executar tudo em ambiente novo e registrar versões; E
+G05,Dependência de um integrante,3,4,Documentar funções e atribuir revisor de outra frente; A
+G06,Exposição de identificação acadêmica,3,5,Separar identificação final e ocultar notificações no vídeo; D
+G07,Vídeo ou link inacessível,3,5,Teste por conta leitora e revisão antes do prazo; C
+G08,Modelo com premissas incompatíveis,3,4,"Validar unidades, planos iniciais e restrições; E"
+G09,Ampliação indevida do escopo,3,3,Registrar solicitação e impacto antes de incluir função; A
+G10,Ausência de validação docente,3,5,Solicitar revisão de andamento e guardar retorno real; A

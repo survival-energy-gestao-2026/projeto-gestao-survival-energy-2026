@@ -1,0 +1,9 @@
+﻿linha,item_id,acao,motivo
+7,I0006,normalizar,produto
+12,I0011,normalizar,tamanho
+17,I0016,excluir,Quantidade inválida
+27,I0026,excluir,could not convert string to float: ''
+42,I0041,excluir,day 30 must be in range 1..28 for month 2 in year 2026
+52,I0051,excluir,Preço ou desconto inválido
+62,I0061,excluir,Conteúdo incompatível com o esquema
+329,I0002,excluir,Item duplicado

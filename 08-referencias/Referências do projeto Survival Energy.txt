@@ -1,0 +1,16 @@
+Referências do projeto Survival Energy
+REFERÊNCIAS
+UNIVERSIDADE NOVE DE JULHO. Projeto em Gestão de Sistemas Computacionais: orientações das disciplinas e entrega final. São Paulo: UNINOVE, 2026. Disponível em: https://sites.google.com/uni9.pro.br/psc-segunda-22026. Acesso em: 17 nov. 2026.
+BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais. Brasília, DF: Presidência da República, 2018. Disponível em: https://normas.leg.br/?urn=urn:lex:br:federal:lei:2018;13709. Acesso em: 17 nov. 2026.
+AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. Guia orientativo: hipóteses legais de tratamento de dados pessoais — legítimo interesse. Brasília, DF: ANPD, 2024. Disponível em: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_legitimo_interesse.pdf. Acesso em: 17 nov. 2026.
+OWASP FOUNDATION. OWASP Top 10:2025. [S. l.]: OWASP, 2025. Disponível em: https://top10.owasp.org/2025/. Acesso em: 17 nov. 2026.
+OWASP FOUNDATION. CSV Injection. [S. l.]: OWASP, [s. d.]. Disponível em: https://community.owasp.org/attacks/CSV_Injection. Acesso em: 17 nov. 2026.
+OWASP FOUNDATION. Input Validation Cheat Sheet. [S. l.]: OWASP, [s. d.]. Disponível em: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html. Acesso em: 17 nov. 2026.
+OWASP FOUNDATION. Authentication Cheat Sheet. [S. l.]: OWASP, [s. d.]. Disponível em: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html. Acesso em: 17 nov. 2026.
+OWASP FOUNDATION. Authorization Cheat Sheet. [S. l.]: OWASP, [s. d.]. Disponível em: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html. Acesso em: 17 nov. 2026.
+SCIPY. scipy.optimize.milp. [S. l.]: SciPy, [s. d.]. Disponível em: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.milp.html. Acesso em: 17 nov. 2026.
+GOOGLE. Colaboratory: frequently asked questions. [S. l.]: Google, [s. d.]. Disponível em: https://research.google.com/colaboratory/faq.html. Acesso em: 17 nov. 2026.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 14724:2024: informação e documentação — trabalhos acadêmicos — apresentação. Rio de Janeiro: ABNT, 2024.
+Fontes e limites de uso
+As páginas da turma orientam a estrutura e os critérios. OWASP fundamenta as categorias de risco e os controles; as notas GUT são avaliações deste cenário, não valores publicados pela OWASP. A legislação fundamenta o mapeamento de privacidade, que depende da identificação do controlador e das regras institucionais antes de qualquer tratamento real.
+Os valores de vendas, produção e transporte são gerados para este estudo. Não foram extraídos da Survival Energy. As referências públicas da marca permanecem na caracterização original; a análise quantitativa não depende de confirmar o catálogo ou o faturamento real da empresa.

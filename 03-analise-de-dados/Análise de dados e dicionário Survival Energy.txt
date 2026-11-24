@@ -1,0 +1,33 @@
+Análise de dados e dicionário Survival Energy
+1 Origem e recorte
+A base representa vendas fictícias de outubro de 2026. A semente 20261117 permite reproduzir sua geração. O gerador inicia 240 pedidos e inclui itens adicionais em parte deles; depois acrescenta um item duplicado. As inconsistências são introduzidas deliberadamente para demonstrar o tratamento. A distribuição de produtos, tamanhos e regiões reflete premissas, não uma pesquisa sobre os clientes da marca.
+Foram lidos 328 registros. Após excluir seis linhas e normalizar duas, restaram 322 itens, 237 pedidos com pelo menos um item válido e 524 peças. Três pedidos deixaram de existir na base tratada porque não conservaram itens válidos. Em pedidos parcialmente mantidos, receita e quantidade refletem somente os itens válidos, enquanto o frete original é preservado.
+2 Dicionário de dados
+item_id — texto. Identificador único do item; I seguido de dígitos.
+pedido_id — texto. Identificador do pedido; pode aparecer em vários itens.
+data — data ISO. Data entre 01 e 31/10/2026.
+produto — categoria. Camiseta ou Moletom.
+tamanho — categoria. P, M, G ou GG.
+quantidade — inteiro. Peças do item; 1 a 100.
+preco_unitario — decimal BRL. Preço de uma peça; maior que zero.
+desconto_item — decimal BRL. Desconto total do item, não percentual; 0 até valor bruto.
+custo_unitario — decimal BRL. Custo variável de produção de uma peça.
+regiao — categoria. Sudeste, Sul ou Nordeste.
+frete_pedido — decimal BRL. Valor único do pedido, repetido nos itens e deduplicado no KPI.
+receita — decimal BRL derivado. quantidade × preço unitário − desconto do item.
+margem — decimal BRL derivado. receita − quantidade × custo unitário.
+3 Limpeza e validação
+O original é preservado. O programa confere esquema exato, tamanho máximo de 5 MB, até 10 mil linhas, categorias permitidas, data, quantidade inteira positiva, valores finitos e limites de desconto. Preço ausente não é preenchido com estimativa. O log aponta número da linha, identificador seguro, ação e motivo.
+As seis exclusões correspondem a quantidade negativa, preço ausente, data impossível, desconto acima do valor bruto, categoria contendo fórmula e item duplicado. Duas normalizações corrigem espaços e caixa em produto e tamanho. Repetição de pedido em itens diferentes é válida. A assinatura de um pedido exige mesma data, região e frete.
+A validação reduz erros formais, mas não prova a veracidade de valores plausíveis. A base é simulada e os valores extremos de frete foram inseridos para análise. Eles são mantidos porque não violam o esquema e podem representar situações operacionais a investigar.
+4 Indicadores e vínculo com o TAP
+Receita após descontos: R$ 58.189,50. Soma-se quantidade × preço e subtrai-se o desconto total de cada item. O indicador atende ao objetivo de entender vendas e comparar categorias.
+Margem de contribuição: R$ 29.254,50. Subtrai-se da receita o custo variável de produção. O indicador apoia o mix, mas não desconta frete, impostos, despesas fixas ou outros custos; por isso não é lucro líquido. Camisetas contribuem R$ 17.721,50 e moletons R$ 11.533,00.
+Frete médio por pedido: R$ 28,80, calculado por R$ 6.826,00 / 237. O frete é deduplicado pelo pedido antes da soma. Esse indicador acompanha o objetivo logístico, mas não equivale ao custo por peça utilizado no modelo de transporte.
+5 Métodos estatísticos
+O ticket tem média de R$ 245,53, mediana de R$ 180,00 e desvio padrão amostral de R$ 151,29. A assimetria ajustada de 1,254 indica cauda à direita: pedidos altos elevam a média. O desvio, isoladamente, não prova instabilidade operacional.
+A correlação de Pearson entre quantidade e receita por pedido é 0,841. A relação positiva é esperada, pois a própria fórmula da receita contém a quantidade. Não demonstra causalidade nem comprova eficiência. Comparar categorias e descontos ajuda a evitar uma interpretação circular.
+O limite superior de frete pelo critério 1,5 IQR é R$ 47,00. Quatro pedidos superam esse limite: P0035, P0080, P0155 e P0220. São observações simuladas para investigação, não erros automaticamente excluídos. O notebook apresenta barras por categoria, região e tamanho, dispersão, boxplot e receita diária.
+6 Análise crítica exigida
+O gargalo investigado é a ausência de uma regra conjunta de produção e distribuição. No cenário, os R$ 29.254,50 de margem histórica não informam sozinhos quanto produzir: as categorias usam recursos diferentes, e os pedidos extremos de frete podem consumir parte do resultado. A correlação de 0,841 entre peças e receita mostra associação esperada pelo cálculo; não elimina a necessidade de controlar custo e capacidade.
+Esses resultados sustentam o recorte do TAP: primeiro padronizar a base, depois comparar o mix e as rotas dentro de restrições explícitas. Os quatro outliers orientam uma revisão do frete, mas não autorizam generalizar uma falha à operação real da Survival Energy. Uma aplicação futura exigiria histórico real autorizado, sazonalidade, devoluções e custos completos. Nesta entrega, a conclusão é válida somente para a simulação.

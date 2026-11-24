@@ -1,0 +1,122 @@
+REGISTRO INICIAL DO BACKLOG — SURVIVAL ENERGY
+Data da consulta: 19/10/2026 (America/Sao_Paulo).
+Fonte: https://trello.com/b/nQMtOsug/backlog-survival-energy
+Registro textual obtido do quadro. As capturas anexas mostram partes visíveis da tela.
+
+Situação: 16 histórias nas listas de planejamento; execução a confirmar pelo grupo.
+As listas de Sprint indicam planejamento. Não indicam início ou conclusão de uma funcionalidade.
+
+Sprint 1: 4 cartão(ões).
+Sprint 2: 6 cartão(ões).
+Sprint 3: 6 cartão(ões).
+Em andamento: 0 cartão(ões).
+Em revisão: 0 cartão(ões).
+Concluído: 0 cartão(ões).
+
+==================================================
+SPRINT 1
+==================================================
+US-01 — Importar base CSV [Alta]
+Como analista, quero carregar a base de vendas em CSV para iniciar a análise dos dados simulados.
+Sprint planejada: Sprint 1
+Prioridade: Alta
+https://trello.com/c/GRI1s09t/1-us-01-importar-base-csv-alta
+
+US-02 — Validar o arquivo CSV [Alta]
+Como analista, quero receber uma mensagem clara quando o CSV estiver ilegível ou sem as colunas obrigatórias para corrigir o arquivo antes de continuar.
+Sprint planejada: Sprint 1
+Prioridade: Alta
+https://trello.com/c/WmbeCjNK/2-us-02-validar-o-arquivo-csv-alta
+
+US-03 — Identificar inconsistências nos dados [Alta]
+Como analista, quero identificar valores ausentes, duplicidades indevidas e registros inconsistentes para evitar análises incorretas.
+Sprint planejada: Sprint 1
+Prioridade: Alta
+https://trello.com/c/X10gEjhR/3-us-03-identificar-inconsist%C3%AAncias-nos-dados-alta
+
+US-04 — Tratar e exportar a base [Alta]
+Como analista, quero aplicar os tratamentos definidos e exportar a base tratada, preservando a original, para reproduzir a análise.
+Sprint planejada: Sprint 1
+Prioridade: Alta
+https://trello.com/c/HiHdX5G4/4-us-04-tratar-e-exportar-a-base-alta
+
+==================================================
+SPRINT 2
+==================================================
+US-05 — Calcular indicadores de desempenho [Alta]
+Como gestor, quero consultar a receita após descontos, a margem de contribuição e o frete médio por pedido para avaliar o desempenho das vendas.
+Sprint planejada: Sprint 2
+Prioridade: Alta
+https://trello.com/c/jDUY5QIi/5-us-05-calcular-indicadores-de-desempenho-alta
+
+US-06 — Aplicar estatísticas descritivas [Alta]
+Como analista, quero calcular média, mediana e desvio-padrão das variáveis selecionadas para compreender a distribuição dos dados.
+Sprint planejada: Sprint 2
+Prioridade: Alta
+https://trello.com/c/5AaeJpdj/6-us-06-aplicar-estat%C3%ADsticas-descritivas-alta
+
+US-07 — Visualizar vendas em gráficos [Alta]
+Como responsável pelo planejamento, quero visualizar gráficos de vendas por produto, tamanho e período para identificar padrões de demanda.
+Sprint planejada: Sprint 2
+Prioridade: Alta
+https://trello.com/c/bBtXhdui/7-us-07-visualizar-vendas-em-gr%C3%A1ficos-alta
+
+US-08 — Comparar frete por região [Alta]
+Como responsável pela logística, quero comparar o custo médio de frete por região para identificar onde os gastos são maiores.
+Sprint planejada: Sprint 2
+Prioridade: Alta
+https://trello.com/c/SlRwywYq/8-us-08-comparar-frete-por-regi%C3%A3o-alta
+
+US-09 — Filtrar os dados [Média]
+Como gestor, quero filtrar os dados por período, produto e região para consultar segmentos específicos da operação simulada.
+Sprint planejada: Sprint 2
+Prioridade: Média
+https://trello.com/c/rwbdHHlJ/9-us-09-filtrar-os-dados-m%C3%A9dia
+
+US-10 — Exportar indicadores e gráficos [Média]
+Como analista, quero exportar os indicadores em CSV e os gráficos em PNG para utilizar os resultados no documento final.
+Sprint planejada: Sprint 2
+Prioridade: Média
+https://trello.com/c/Z81Ss6sC/10-us-10-exportar-indicadores-e-gr%C3%A1ficos-m%C3%A9dia
+
+==================================================
+SPRINT 3
+==================================================
+US-11 — Otimizar a margem da produção [Alta]
+Como responsável pelo planejamento, quero calcular as quantidades de camisetas e moletons que maximizam a margem de contribuição, respeitando os recursos e a demanda, para apoiar a decisão de produção.
+Sprint planejada: Sprint 3
+Prioridade: Alta
+https://trello.com/c/kpc2uS3L/11-us-11-otimizar-a-margem-da-produ%C3%A7%C3%A3o-alta
+
+US-12 — Minimizar custos de transporte [Alta]
+Como responsável pela logística, quero calcular as quantidades transportadas por rota que minimizam o custo e atendem à demanda para planejar a distribuição.
+Sprint planejada: Sprint 3
+Prioridade: Alta
+https://trello.com/c/qriDZsa6/12-us-12-minimizar-custos-de-transporte-alta
+
+US-13 — Comparar cenários dos dois modelos [Alta]
+Como gestor, quero alterar parâmetros de produção e transporte e executar novamente os dois modelos para comparar cenários e avaliar riscos.
+Sprint planejada: Sprint 3
+Prioridade: Alta
+https://trello.com/c/PKfhOoaw/13-us-13-comparar-cen%C3%A1rios-dos-dois-modelos-alta
+
+US-14 — Validar entradas e viabilidade dos modelos [Alta]
+Como analista, quero receber uma mensagem quando os dados de entrada forem inválidos ou um modelo não tiver solução viável para revisar as condições sem interpretar um resultado inexistente.
+Sprint planejada: Sprint 3
+Prioridade: Alta
+https://trello.com/c/3X9E4io6/14-us-14-validar-entradas-e-viabilidade-dos-modelos-alta
+
+US-15 — Comparar planos de transporte [Alta]
+Como responsável pela logística, quero comparar o custo do plano inicial viável com o custo otimizado sob as mesmas condições para medir a diferença obtida.
+Sprint planejada: Sprint 3
+Prioridade: Alta
+https://trello.com/c/EXYx9JI1/15-us-15-comparar-planos-de-transporte-alta
+
+US-16 — Exportar soluções da otimização [Média]
+Como gestor, quero exportar as soluções e as comparações dos cenários em CSV para consultar e documentar as decisões recomendadas.
+Sprint planejada: Sprint 3
+Prioridade: Média
+https://trello.com/c/mNwEdGd7/16-us-16-exportar-solu%C3%A7%C3%B5es-da-otimiza%C3%A7%C3%A3o-m%C3%A9dia
+
+Preservar este registro inicial. Criar novos registros datados após mudanças reais do quadro, com os cartões alterados e os links das entregas.
+Não incluir nomes completos, RAs, credenciais ou dados pessoais de clientes.

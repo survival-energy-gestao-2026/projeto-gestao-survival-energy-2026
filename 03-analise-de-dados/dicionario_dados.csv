@@ -1,0 +1,14 @@
+﻿campo,tipo_unidade,regra
+item_id,texto,Identificador único do item; I seguido de dígitos
+pedido_id,texto,Identificador do pedido; pode aparecer em vários itens
+data,data ISO,Data entre 01 e 31/10/2026
+produto,categoria,Camiseta ou Moletom
+tamanho,categoria,"P, M, G ou GG"
+quantidade,inteiro,Peças do item; 1 a 100
+preco_unitario,decimal BRL,Preço de uma peça; maior que zero
+desconto_item,decimal BRL,"Desconto total do item, não percentual; 0 até valor bruto"
+custo_unitario,decimal BRL,Custo variável de produção de uma peça
+regiao,categoria,"Sudeste, Sul ou Nordeste"
+frete_pedido,decimal BRL,"Valor único do pedido, repetido nos itens e deduplicado no KPI"
+receita,decimal BRL derivado,quantidade × preço unitário − desconto do item
+margem,decimal BRL derivado,receita − quantidade × custo unitário

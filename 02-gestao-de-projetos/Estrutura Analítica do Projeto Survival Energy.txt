@@ -1,0 +1,75 @@
+Estrutura Analítica do Projeto Survival Energy
+0 Projeto Survival Energy
+Planejamento de produção e distribuição com Python. A EAP abaixo reaproveita exatamente os códigos das 52 entregas existentes na RACI. Nível 0: projeto; nível 1: disciplina ou integração; nível 2: fase; nível 3: entrega verificável. Datas e dependências permanecem no Gantt.
+1 Gestão de Projetos
+1.1 Iniciação
+1.1.1 Termo de Abertura do Projeto — TAP
+1.1.2 Estrutura Analítica do Projeto — EAP
+1.1.3 Backlog: necessidades, prioridades e critérios de conclusão
+1.2 Planejamento
+1.2.1 Matriz RACI dos cinco integrantes
+1.2.2 Cronograma de Gantt: atividades, prazos e dependências
+1.2.3 Orçamento: horas, recursos e custos
+1.2.4 Matriz de riscos do projeto e respostas
+1.2.5 Plano de comunicação
+1.3 Acompanhamento
+1.3.1 Atas e registros de decisões
+1.3.2 Andamento das entregas e alterações do planejamento
+1.3.3 Registro das contribuições dos integrantes
+1.3.4 Análise crítica do planejamento, custos e riscos
+2 Análise de Dados
+2.1 Preparação dos dados
+2.1.1 Base original de vendas simuladas
+2.1.2 Dicionário de dados e premissas da simulação
+2.1.3 Base tratada e registro das verificações e correções
+2.2 Análise
+2.2.1 Notebook Python executável
+2.2.2 Três indicadores: receita após descontos, margem de contribuição e frete médio por pedido
+2.2.3 Análise com pelo menos três conceitos estatísticos
+2.2.4 Gráficos com títulos, unidades e identificação
+2.3 Interpretação
+2.3.1 Relatório de resultados e análise crítica do problema
+2.3.2 Parâmetros e premissas para os modelos de otimização
+3 Segurança da Informação
+3.1 Diagnóstico
+3.1.1 Inventário de ativos e classificação das informações
+3.1.2 Pelo menos 20 ameaças aplicáveis e priorização GUT
+3.1.3 Mapeamento de pelo menos 20 tipos de dados pessoais ou atividades de tratamento, com fundamentação
+3.2 Controles
+3.2.1 Pelo menos 20 políticas de acesso e justificativas técnicas
+3.2.2 Controles de segurança e evidências de implementação
+3.2.3 Plano de resposta a incidentes e recuperação
+3.3 Avaliação
+3.3.1 Análise crítica do risco prioritário e da mitigação
+3.3.2 Revisão de permissões e ausência de dados pessoais e credenciais nos arquivos públicos
+4 Pesquisa Operacional
+4.1 Produção
+4.1.1 Dados de entrada e formulação do planejamento de camisetas e moletons
+4.1.2 Modelo Python: variáveis e restrições documentadas
+4.1.3 Solução interpretada: quantidades e utilização de recursos
+4.1.4 Cenário alternativo e comparação com a solução inicial
+4.2 Transporte
+4.2.1 Oferta, demanda, custos das rotas e formulação matemática
+4.2.2 Modelo Python de distribuição entre origens e destinos
+4.2.3 Solução interpretada e comparação com plano inicial viável
+4.2.4 Cenário alternativo e comparação dos resultados
+4.3 Validação
+4.3.1 Análise crítica da viabilidade das soluções
+4.3.2 Efeitos dos cenários alternativos sobre os riscos do negócio simulado
+5 Integração e entrega
+5.1 Contexto e repositório
+5.1.1 Caracterização da empresa e do cenário simulado
+5.1.2 Requisitos e diagnóstico
+5.1.3 Repositório, README e instruções de execução
+5.1.4 Fontes e referências utilizadas
+5.2 Documentação final
+5.2.1 Integração dos resultados das quatro disciplinas
+5.2.2 Evidências de execução, testes e acompanhamento
+5.2.3 Revisão com o professor e ajustes realizados
+5.2.4 Documento final editável e contribuições dos cinco integrantes
+5.2.5 Documento final em PDF com links e referências
+5.3 Apresentação e entrega
+5.3.1 Roteiro com participação dos cinco integrantes
+5.3.2 Vídeo de 8 a 15 minutos e link não listado
+5.3.3 Checklist de arquivos, códigos, privacidade e links
+5.3.4 Comprovante da entrega ao professor

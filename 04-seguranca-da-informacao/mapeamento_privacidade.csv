@@ -1,0 +1,21 @@
+﻿id,processo,dados,finalidade,hipotese_art7,direito_procedimento
+D01,Convite ao Drive,E-mail do integrante,Conceder acesso à pasta,IX,Remover acesso quando sair
+D02,Lista de colaboradores,Nome de exibição e e-mail,Identificar os responsáveis pelo acesso,IX,Corrigir cadastro no provedor e revisar acesso
+D03,Autenticação no provedor,Identificador da conta e eventos de login,Permitir entrada no serviço,IX,Consultar controles de privacidade e segurança do provedor
+D04,Histórico de edição,Autor e data da alteração,Rastrear contribuições e recuperar versões,IX,Solicitar revisão ao responsável; retenção pode depender do provedor
+D05,Comentários de revisão,Nome de exibição e comentário,Discutir correções do trabalho,IX,Corrigir ou remover comentário desnecessário
+D06,Atribuição de tarefa,Apelido acadêmico e tarefa,Distribuir trabalho sem expor identificação pública,IX,Corrigir atribuição e retirar associação desnecessária
+D07,Registro de contribuição,Identificação e descrição da atividade,Comprovar contribuição na avaliação,V,Corrigir com comprovação; encaminhar à instituição
+D08,Identificação do PDF,Nome completo,Identificar autor perante professor,V,Corrigir antes do envio ou solicitar retificação
+D09,Vínculo acadêmico do PDF,RA,Associar entrega ao estudante,V,Retificar com a instituição; não publicar no repositório
+D10,Contato com professor,E-mail institucional e mensagem,Solicitar orientação acadêmica,V,Acessar e corrigir informações pela instituição
+D11,Pauta de reunião,Apelido e responsabilidade,Preparar discussão da equipe,IX,Retirar dados que não sejam necessários
+D12,Presença em reunião,Apelido e data,Registrar participação efetiva,IX,Corrigir registro inexato com o grupo
+D13,Ata de reunião,Manifestação e atribuição de decisão,Documentar o que foi acordado,IX,Solicitar correção ou contextualização
+D14,Aceite da ata,Identificador e manifestação de concordância,Confirmar fidelidade do registro,IX,Registrar contestação e revisão; não forjar assinatura
+D15,Voz na apresentação,Áudio dos participantes,Demonstrar domínio do projeto,V,Ajustar gravação antes do envio; consultar alternativas institucionais
+D16,Imagem opcional no vídeo,Imagem do participante,Apresentar o integrante quando ele optar por aparecer,I,Revogar consentimento e substituir por narração quando cabível
+D17,Captura de tela,Nome de perfil ou notificação acidental,Comprovar execução sem expor dados desnecessários,IX,Ocultar antes de publicar e substituir captura indevida
+D18,Comprovante de envio,Remetente e horário,Comprovar entrega acadêmica,V,Corrigir dados junto à instituição
+D19,Solicitação de titular,Contato e teor do pedido,Atender direitos sobre registros do projeto,II,Acompanhar a resposta e pedir correção da solicitação
+D20,Registro de incidente,Identidade afetada e relato mínimo,Investigar e tratar exposição de dados,IX,Solicitar acesso e correção; avaliar retenção necessária

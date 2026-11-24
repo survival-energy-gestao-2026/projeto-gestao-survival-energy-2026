@@ -1,0 +1,23 @@
+Registros de execução e pendências do grupo Survival Energy
+1 Registro técnico de 17 de novembro de 2026
+Foi preparado e executado o notebook integrado no Google Colab. O código calcula indicadores, gera gráficos, resolve quatro cenários com SciPy e verifica os ótimos com enumeração independente. A execução adicional identifica corretamente um transporte inviável. Os testes negativos da validação foram aprovados.
+Ambiente observado: Python 3.13.18, NumPy 2.4.6, SciPy 1.16.3 e Matplotlib 3.10.0. O notebook executado contém saídas persistidas. Na amostra I0001, receita = 1 × R$ 90,00 − R$ 4,50 = R$ 85,50.
+A execução técnica desta versão foi preparada com assistência de IA. Esse registro não atribui aos integrantes atividades que eles ainda não revisaram ou executaram, nem substitui a participação exigida na apresentação. Os registros originais do backlog de 19/10/2026 foram preservados.
+2 Pauta pronta para a revisão do grupo
+Pauta proposta: conferir a base e as seis exclusões; explicar cada KPI; executar o notebook; revisar a interpretação dos cenários; conferir ameaças e controles; definir contribuições reais; revisar as exigências de GitHub, vídeo e validação docente.
+Decisões esperadas: aceitar ou corrigir premissas; atribuir revisão de cada requisito; definir data real da gravação; registrar quem solicitará o sinal verde ao professor. Esta pauta ainda não comprova envio ou realização de reunião.
+3 Modelo de ata a preencher após reunião
+Data e horário: ____________________. Canal: ____________________. Participantes por código A–E: ____________________.
+Pauta efetivamente discutida: ____________________. Decisões e justificativas: ____________________. Pendências, responsáveis e prazos: ____________________.
+Aceite A: ____________________. Aceite B: ____________________. Aceite C: ____________________. Aceite D: ____________________. Aceite E: ____________________. Registrar data de cada aceite. Não preencher assinaturas ou concordâncias em nome de outra pessoa.
+4 Contribuições individuais
+A — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
+B — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
+C — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
+D — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
+E — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
+A identificação completa e os RAs devem ser acrescentados somente à versão enviada diretamente ao professor, conforme a orientação da turma. A versão do Drive mantém os códigos.
+5 Pendências que exigem participação real
+Revisar e aceitar as entregas técnicas; registrar atas e pautas efetivamente enviadas; comprovar contribuições; obter a validação de andamento do professor; gravar o vídeo com todos; completar o link do vídeo e testar acesso por leitor.
+A orientação final pede GitHub, embora páginas anteriores aceitem pasta compartilhada. O material foi mantido somente no Drive por decisão de escopo desta preparação. O grupo deve confirmar com o professor se o Drive substitui o GitHub; caso contrário, cumprir a exigência antes da submissão. Não há repositório GitHub ou vídeo publicado por esta entrega.
+MFA e outras configurações pessoais permanecem para verificação dos titulares. O checklist não presume acesso público ao Drive nem que os links tenham sido testados em janela anônima.

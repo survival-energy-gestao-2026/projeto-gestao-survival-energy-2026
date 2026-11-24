@@ -1,0 +1,68 @@
+Requisitos e diagnóstico do projeto Survival Energy
+1 Finalidade
+Este documento traduz o cenário acadêmico da Survival Energy em requisitos verificáveis, alinhados ao Termo de Abertura do Projeto e à caracterização da empresa. Orienta a preparação dos dados, as análises, os modelos, os controles e a revisão das entregas.
+As situações descritas são hipóteses acadêmicas. Sua análise será realizada com dados simulados, sem representar problemas reais da marca.
+2 Problema a investigar
+O estudo buscará responder:
+Quais quantidades inteiras de camisetas e moletons maximizam a margem de contribuição dentro dos recursos disponíveis, e qual plano de transporte entre dois centros e três regiões atende à demanda simulada pelo menor custo?
+Também será necessário definir como proteger os arquivos utilizados e organizar a execução do trabalho.
+3 Diagnóstico inicial
+No cenário simulado, os registros são consolidados manualmente e as decisões não usam indicadores padronizados. Serão investigadas três dificuldades:
+* Planejamento de quantidades: decisões sem comparação de demanda, custos e recursos podem gerar excesso ou falta de produtos.
+* Distribuição: alocações entre os centros e as regiões sem comparação de alternativas podem elevar o custo de transporte.
+* Organização e proteção das informações: dados inconsistentes e permissões inadequadas podem comprometer as análises e os arquivos.
+Essas dificuldades são pontos de partida para o estudo. As conclusões dependerão dos resultados encontrados.
+4 Requisitos da solução
+Código
+	O que deverá ser realizado
+	Como verificar
+	R01
+	Organizar a base fictícia de vendas.
+	Entregar base original, base tratada e dicionário com campos, tipos, unidades e regras de validação.
+	R02
+	Verificar e tratar inconsistências.
+	Validar 100% das linhas mantidas e registrar correções e exclusões por campos, formatos, valores inválidos e duplicidades indevidas.
+	R03
+	Calcular indicadores de desempenho.
+	Calcular receita após descontos, margem de contribuição e frete médio por pedido, com regras de cálculo e conferência de uma amostra.
+	R04
+	Analisar o comportamento dos dados.
+	Aplicar ao menos três conceitos estatísticos, apresentar gráficos por produto, tamanho ou região e explicar sua utilidade.
+	R05
+	Maximizar a margem do mix de produção.
+	Resolver em Python quantidades inteiras por categoria, verificar recursos, capacidade e demanda máxima e comparar a margem com um plano inicial viável.
+	R06
+	Minimizar o custo de distribuição.
+	Resolver em Python o transporte de dois centros para três regiões, verificar a oferta e atender 100% da demanda. Comparar custo com um plano inicial viável.
+	R07
+	Comparar cenários.
+	Executar ao menos um cenário alternativo por modelo, alterando uma condição por comparação; registrar efeito nas decisões, nos resultados e na viabilidade.
+	R08
+	Avaliar a segurança das informações.
+	Entregar inventário, pelo menos 20 ameaças com GUT, 20 políticas de acesso, mapeamento de privacidade e resposta a incidentes, com evidências dos controles.
+	R09
+	Permitir a reprodução dos resultados.
+	Entregar dados, códigos e instruções de execução; executar os notebooks do início ao fim em ambiente limpo com as dependências documentadas.
+	R10
+	Organizar o trabalho dos cinco integrantes.
+	Entregar EAP, cronograma e matriz RACI; acompanhar custos, riscos e entregas. Preparar relatório e vídeo de 8 a 15 minutos com participação dos cinco integrantes.
+	5 Dados necessários
+Para a análise, cada item terá identificador próprio e vínculo com um pedido. Os campos incluirão data, categoria, tamanho, quantidade, preço unitário, desconto total do item em reais, custo variável unitário e região. O frete total pertencerá ao pedido e será contado uma única vez.
+Para a produção, serão definidos orçamento, capacidade, recursos e consumo por peça, demanda máxima e margem de contribuição unitária de cada categoria. As variáveis serão os totais inteiros de camisetas e moletons, sem divisão otimizada por tamanho.
+Para o transporte, serão definidos oferta do Centro A e do Centro B, demanda de Sudeste, Sul e Nordeste e custo por peça de cada rota. Esses parâmetros não serão confundidos com o frete histórico por pedido.
+Os valores serão simulados e documentados em reais e peças, para um período comum. O cenário de referência deverá admitir um plano inicial viável; cenários inviáveis serão identificados e explicados.
+6 Regras de cálculo e validação
+* Receita após descontos: somar quantidade vezes preço unitário, descontando o desconto total de cada item, definido em reais.
+* Margem de contribuição neste estudo: receita após descontos menos os custos variáveis de produção. Frete será analisado separadamente; esse indicador não será denominado lucro líquido.
+* Frete médio por pedido: somar o frete de pedidos únicos e dividir pelo número desses pedidos. Um identificador de pedido repetido em diferentes itens não é, por si só, duplicidade.
+* Validar quantidades inteiras não negativas nos modelos, limites de recursos e atendimento da demanda. Descontos por item deverão ficar entre zero e seu valor bruto.
+* Comparar plano inicial e solução otimizada com os mesmos parâmetros. A variação percentual usará o resultado inicial como base; se essa base for zero, informar a diferença absoluta.
+* Preservar a base original e registrar os tratamentos. Distinguir registro duplicado de itens diferentes pertencentes ao mesmo pedido.
+* Não incluir dados pessoais reais ou credenciais nos arquivos públicos.
+7 Critérios de aceite do projeto
+Cada requisito de R01 a R10 terá uma evidência identificável e um responsável por revisão. O aceite do grupo dependerá da execução dos notebooks, da validação dos dados, do cumprimento das restrições e da interpretação dos resultados.
+No transporte, verificar custo total, oferta utilizada e atendimento por região. Na produção, verificar margem calculada, quantidades por categoria e consumo de recursos. Os planos de referência serão salvos antes da otimização.
+Ganhos, resultados equivalentes e limitações serão apresentados conforme os cálculos. As metas adotadas pelo grupo serão conferidas com a rubrica e o calendário oficial da turma antes da entrega.
+8 Limitações
+As conclusões serão válidas para o cenário simulado e dependerão das premissas adotadas. Não poderão ser apresentadas como resultados reais da Survival Energy.
+O projeto seguirá os limites do TAP: sem aplicativo mobile, loja virtual, dashboard web completo, aprendizado de máquina, integração com sistemas da marca ou operações reais. A interface dos resultados será composta por tabelas e gráficos nos notebooks.

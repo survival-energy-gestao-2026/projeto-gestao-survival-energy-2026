@@ -1,0 +1,21 @@
+Backlog — Survival Energy
+Projeto acadêmico • Registro inicial: 19/10/2026
+Abrir o backlog no Trello
+Finalidade
+O backlog reúne 16 funcionalidades propostas para os scripts e notebooks do cenário simulado da Survival Energy. Cada cartão contém uma história no formato “Como [usuário], quero [funcionalidade] para [benefício]”, a prioridade e a Sprint planejada.
+Planejamento das Sprints
+Sprint 1 — 4 histórias (US-01 a US-04): importação, validação e tratamento da base de dados.
+Sprint 2 — 6 histórias (US-05 a US-10): indicadores, estatísticas, gráficos, filtros e exportação dos resultados.
+Sprint 3 — 6 histórias (US-11 a US-16): modelos de produção e transporte, validação, comparação de cenários e exportação das soluções.
+Como acompanhar o trabalho
+1. Abrir o cartão e consultar a descrição, a prioridade e a Sprint planejada.
+2. Ao iniciar a funcionalidade, mover o cartão para “Em andamento”.
+3. Após desenvolver e testar, mover para “Em revisão”. Registrar o resultado e o link do arquivo no Drive.
+4. Depois da revisão pelo grupo, mover para “Concluído”. A Sprint planejada continua registrada na descrição do cartão.
+Como guardar a caminhada no Drive
+Manter este documento na pasta 02. Gestão de projetos. Salvar capturas datadas do quadro e evidências dos resultados na pasta 06. Evidências, após mudanças reais de status ou ao encerrar uma Sprint.
+Nome sugerido: Backlog_AAAA-MM-DD_Sprint-N. Em cada novo registro, informar a data, os cartões que mudaram de status e o que foi entregue. As capturas registram um momento; o acompanhamento continua no Trello.
+Abrir a pasta de evidências
+Situação registrada
+Na consulta de 19/10/2026, havia 4 cartões na Sprint 1, 6 na Sprint 2 e 6 na Sprint 3. As listas “Em andamento”, “Em revisão” e “Concluído” estavam vazias. A execução das funcionalidades ainda precisa ser confirmada pelo grupo; o registro comprova o planejamento inicial.
+O acesso ao quadro depende das permissões do Trello. O link neste documento não concede acesso automaticamente. Não incluir nomes completos, RAs ou dados pessoais nos registros compartilhados.

@@ -1,0 +1,31 @@
+Planejamento complementar e acompanhamento Survival Energy
+1 Organização do trabalho
+O planejamento existente já define TAP, 16 histórias de usuário, Gantt e RACI. Este complemento fecha orçamento, riscos, comunicação, critérios de aceite e controle das entregas. Os papéis A a E são mantidos para preservar a consistência com os arquivos anteriores. A distribuição planejada não comprova, por si só, a contribuição realizada por cada pessoa.
+O prazo oficial é 30 de novembro de 2026 (UNINOVE, 2026). As datas de outubro e início de novembro nos arquivos originais representam a linha de base planejada. Não serão convertidas retroativamente em datas de conclusão. A preparação técnica desta versão ocorre em 17/11/2026; a revisão do grupo e a validação docente continuam necessárias.
+2 Orçamento estimado
+Adotamos 156 horas de esforço, valor acadêmico de R$ 60 por hora e contingência de 10%. O custo econômico estimado é R$ 10.296: R$ 9.360 de esforço e R$ 936 de reserva. Trata-se de estimativa de oportunidade, sem afirmar contratação, pagamento ou horas já realizadas.
+Distribuição: gestão, 24 h; dados, 30 h; análise, 28 h; segurança, 24 h; otimização, 30 h; revisão e gravação, 20 h. A planilha orcamento.csv apresenta o detalhamento. Google Colab oferece modalidade gratuita com limites de uso (Google, s. d.). Não há necessidade de servidor permanente, domínio ou licença paga para este escopo. O desembolso incremental previsto é zero, condicionado aos recursos já disponíveis.
+A reserva cobre aproximadamente 15,6 horas adicionais ao valor adotado. Se houver falha de execução, a prioridade é reproduzir o notebook e concluir as exigências essenciais. Qualquer custo pago exige decisão do grupo; nenhuma aquisição foi realizada.
+3 Riscos e respostas
+A matriz usa escalas de 1 a 5 para probabilidade e impacto. O produto P × I serve à priorização interna: 1–5 baixo, 6–10 moderado, 11–15 alto e 16–25 crítico. Essas notas são julgamento do cenário acadêmico, não frequência estatística medida.
+G01 — Dados inconsistentes. P=4, I=4, prioridade=16. Resposta: Validar esquema e manter original; B revisa o registro de exclusões.
+G02 — Atraso nas revisões. P=4, I=5, prioridade=20. Resposta: Entregas pequenas com revisor; A prioriza itens obrigatórios.
+G03 — Perda de arquivos. P=2, I=5, prioridade=10. Resposta: Backup exportado e teste de restauração; D.
+G04 — Notebook falhar em outra sessão. P=3, I=5, prioridade=15. Resposta: Executar tudo em ambiente novo e registrar versões; E.
+G05 — Dependência de um integrante. P=3, I=4, prioridade=12. Resposta: Documentar funções e atribuir revisor de outra frente; A.
+G06 — Exposição de identificação acadêmica. P=3, I=5, prioridade=15. Resposta: Separar identificação final e ocultar notificações no vídeo; D.
+G07 — Vídeo ou link inacessível. P=3, I=5, prioridade=15. Resposta: Teste por conta leitora e revisão antes do prazo; C.
+G08 — Modelo com premissas incompatíveis. P=3, I=4, prioridade=12. Resposta: Validar unidades, planos iniciais e restrições; E.
+G09 — Ampliação indevida do escopo. P=3, I=3, prioridade=9. Resposta: Registrar solicitação e impacto antes de incluir função; A.
+G10 — Ausência de validação docente. P=3, I=5, prioridade=15. Resposta: Solicitar revisão de andamento e guardar retorno real; A.
+4 Comunicação proposta
+Até a entrega, propõe-se um alinhamento de 15 minutos às segundas e quintas, às 19h, por Google Meet, sujeito à disponibilidade dos integrantes. O canal de mensagens do grupo concentra avisos; o Drive guarda decisões e evidências. A pauta deve ser disponibilizada até o dia anterior e a ata até 24 horas após o encontro. Esses horários são uma proposta, não reuniões realizadas.
+A pauta deve incluir entrega concluída, bloqueio, responsável pela solução e próxima revisão. O integrante A consolida as decisões; o executor registra o arquivo; o revisor verifica o critério de aceite. Divergências técnicas ficam no registro de decisões com a justificativa adotada.
+As atas, os aceites e as pautas efetivamente enviadas devem ser anexados ao documento de registros. As capturas de 19/10/2026 já existentes comprovam o planejamento inicial do backlog. Não comprovam reuniões, desenvolvimento posterior ou aceite do professor.
+5 Recuperação do cronograma e critérios de aceite
+Proposta de próximos marcos: 18–20/11, revisão do grupo e consulta ao professor; 21–24/11, ajustes, identificação restrita e PDF; 25–27/11, gravação por todos; 28–29/11, testes de acesso e conferência; 30/11, envio final. As dependências permanecem: revisar resultados antes de gravar, completar o vídeo antes de fechar seus links no PDF.
+R01–R04: CSV original e tratado, log de limpeza, indicadores e gráficos reproduzíveis. R05–R07: dois modelos, planos de referência, solução ótima e cenários. R08: documentação de segurança e testes dos controles em código. R09: notebook executado e instruções. R10: planejamento completo; contribuições reais, aceites e vídeo ainda dependem do grupo.
+O backlog recebe critérios verificáveis: rejeitar arquivo sem esquema, registrar exclusões, manter original, contar frete por pedido, exportar indicadores e soluções, filtrar segmentos, verificar viabilidade e explicar cenários. A existência do código não substitui a revisão e o aceite dos cartões no Trello; o quadro não foi alterado nesta entrega.
+6 Análise crítica de gestão
+O orçamento é compatível com uma solução em notebooks porque concentra recursos na preparação dos dados, validação e interpretação. Reservar dinheiro para uma aplicação web que não integra o escopo apenas aumentaria o custo sem resolver o problema estudado. A contingência ajuda em retrabalho pontual, mas não compensa indisponibilidade prolongada da equipe ou ausência de validação docente.
+O backlog reduz o risco de descobrir problemas tarde: primeiro são verificadas importação e limpeza; depois, indicadores; por último, otimização. Cada incremento gera um arquivo que outro integrante consegue revisar. Isso também permite entregar o núcleo obrigatório antes de melhorias estéticas. O controle precisa registrar o que realmente aconteceu, sem transformar previsão em evidência de execução.
