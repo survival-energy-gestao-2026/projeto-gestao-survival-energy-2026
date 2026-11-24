@@ -19,5 +19,5 @@ E — atividades realmente realizadas: ____________________; arquivos/evidência
 A identificação completa e os RAs devem ser acrescentados somente à versão enviada diretamente ao professor, conforme a orientação da turma. A versão do Drive mantém os códigos.
 5 Pendências que exigem participação real
 Revisar e aceitar as entregas técnicas; registrar atas e pautas efetivamente enviadas; comprovar contribuições; obter a validação de andamento do professor; gravar o vídeo com todos; completar o link do vídeo e testar acesso por leitor.
-A orientação final pede GitHub, embora páginas anteriores aceitem pasta compartilhada. O material foi mantido somente no Drive por decisão de escopo desta preparação. O grupo deve confirmar com o professor se o Drive substitui o GitHub; caso contrário, cumprir a exigência antes da submissão. Não há repositório GitHub ou vídeo publicado por esta entrega.
+A orientação final pede GitHub, embora páginas anteriores aceitem pasta compartilhada. A equipe deve registrar o endereço do repositório publicado e o link do vídeo no PDF de submissão e verificar ambos em janela anônima.
 MFA e outras configurações pessoais permanecem para verificação dos titulares. O checklist não presume acesso público ao Drive nem que os links tenham sido testados em janela anônima.

@@ -23,6 +23,6 @@ Demonstração: mostrar variáveis, restrições e status ótimo. Apontar o test
 Integrantes B e D: “A limpeza evita que decisões matematicamente corretas usem dados inconsistentes. A segurança preserva o que será analisado, enquanto a gestão define revisão e responsabilidade. A otimização transforma as premissas em decisões verificáveis.”
 Explicar duas limitações: os dados não descrevem a empresa real e o transporte considera estoque disponível, não somente a produção calculada. Mostrar como repetir os resultados a partir do notebook.
 8 Organização e conclusão de 13 a 15 minutos
-Integrantes C e E: mostrar pastas, dados originais e tratados, código, saídas e referências. Se GitHub for exigido e criado pelo grupo, demonstrar os commits reais. Não afirmar que há repositório ou histórico inexistente.
+Integrantes C e E: mostrar pastas, dados originais e tratados, código, saídas e referências. Abrir o repositório publicado no GitHub e demonstrar os commits reais da equipe.
 Fala final sugerida: “O principal aprendizado foi perceber que o melhor resultado depende das restrições e da qualidade dos dados. Encontramos ganhos na simulação e também um limite em que a distribuição deixa de ser possível. O próximo passo seria validar as premissas com dados autorizados e ampliar os custos considerados.”
 Após gravar, revisar áudio e exposição de dados. A turma solicita YouTube não listado e link no documento final. Esta preparação entrega o roteiro; a gravação com a participação do grupo e a publicação ainda precisam ser realizadas.
