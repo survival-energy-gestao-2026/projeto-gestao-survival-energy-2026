@@ -26,5 +26,5 @@ O script grava arquivos em `resultados/`. A simulação tem 322 itens válidos e
 | [Segurança da informação](04-seguranca-da-informacao/) | Matriz GUT, políticas de acesso e mapeamento de privacidade |
 | [Pesquisa operacional](05-pesquisa-operacional/) | Formulação dos dois modelos, restrições e interpretação dos cenários. O código dos modelos está no notebook integrado |
 | [Evidências](06-evidencias/) | Resultados da execução, gráficos, testes e registros do backlog |
-| [Vídeo](07-video/) | Roteiro de demonstração. O link do YouTube está pendente da gravação pela equipe |
+| [Vídeo](07-video/) | O link do YouTube está pendente da gravação pela equipe |
 | [Referências](08-referencias/) | Fontes usadas no estudo |
