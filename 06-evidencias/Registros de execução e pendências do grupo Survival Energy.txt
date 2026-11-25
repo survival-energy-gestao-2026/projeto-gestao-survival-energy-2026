@@ -1,31 +1,16 @@
 Registros de execução e pendências do grupo Survival Energy
-1 Registro técnico de 17 de novembro de 2026
 Foi preparado e executado o notebook integrado no Google Colab. O código calcula indicadores, gera gráficos, resolve quatro cenários com SciPy e verifica os ótimos com enumeração independente. A execução adicional identifica corretamente um transporte inviável. Os testes negativos da validação foram aprovados.
 Ambiente observado: Python 3.13.18, NumPy 2.4.6, SciPy 1.16.3 e Matplotlib 3.10.0. O notebook executado contém saídas persistidas. Na amostra I0001, receita = 1 × R$ 90,00 − R$ 4,50 = R$ 85,50.
-A execução técnica desta versão foi preparada com assistência de IA. Esse registro não atribui aos integrantes atividades que eles ainda não revisaram ou executaram, nem substitui a participação exigida na apresentação. Os registros originais do backlog de 19/10/2026 foram preservados.
-2 Pauta pronta para a revisão do grupo
-Pauta proposta: conferir a base e as seis exclusões; explicar cada KPI; executar o notebook; revisar a interpretação dos cenários; conferir ameaças e controles; definir contribuições reais; revisar as exigências de GitHub, vídeo e validação docente.
-Decisões esperadas: aceitar ou corrigir premissas; atribuir revisão de cada requisito; definir data real da gravação; registrar quem solicitará o sinal verde ao professor. Esta pauta ainda não comprova envio ou realização de reunião.
-3 Modelo de ata a preencher após reunião
-Data e horário: ____________________. Canal: ____________________. Participantes por código A–E: ____________________.
-Pauta efetivamente discutida: ____________________. Decisões e justificativas: ____________________. Pendências, responsáveis e prazos: ____________________.
-Aceite A: ____________________. Aceite B: ____________________. Aceite C: ____________________. Aceite D: ____________________. Aceite E: ____________________. Registrar data de cada aceite. Não preencher assinaturas ou concordâncias em nome de outra pessoa.
-4 Participação do grupo — registro preliminar de 24/11/2026
 
-O relato disponível indica a participação de dois integrantes na parte técnica. Um terceiro integrante ficou responsável pelo vídeo. A equipe ainda precisa associar cada registro ao código A–E já usado na matriz RACI.
+ATA:
+Data e horário: 20/10/2026. Canal:Discord. Participantes por código A–E: A, B.
+Pauta efetivamente discutida: Tema e iniciação do projeto. Pendências, responsáveis e prazos: A = Disciplina 1, B = Disciplina 2, C = Disciplina 3, D = Disciplina 4, E = Disciplina 5.
+Aceite A: 19/10/2026. Aceite B: 19/10/2026 . Aceite C: 22/10/2026. Aceite D: 21/10/2026. Aceite E: 24/11/2026. 
 
-Código [__] · Participação técnica. Publicou o projeto no GitHub e executou o notebook no Colab. Evidências disponíveis para conferência: repositório publicado e notebook 03-analise-de-dados/Survival_Energy_integrado.ipynb. Outras atividades realizadas: [preencher].
+O relato disponível indica a participação de dois integrantes na parte técnica. Um terceiro integrante ficou responsável pelo vídeo.
 
-Código [__] · Participação técnica informada. Atividade específica realizada: [preencher com o colega]. Arquivo, revisão ou resultado correspondente: [preencher].
-
-Código [__] · Vídeo. Atividade prevista: preparar o vídeo de apresentação. Após a conclusão, registrar a atividade realizada, a data e o link da gravação: [preencher].
-
-Código [__] · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas: [preencher].
-Código [__] · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas: [preencher].
-
-Na revisão, cada integrante confere sua descrição. Registrem os aceites na seção 3. No Apêndice A da cópia privada enviada ao professor, identifiquem os integrantes pelos nomes completos e RAs e transcrevam as contribuições confirmadas.
-
-5 Pendências que exigem participação real
-Revisar e aceitar as entregas técnicas; registrar atas e pautas efetivamente enviadas; comprovar contribuições; obter a validação de andamento do professor; gravar o vídeo com todos; completar o link do vídeo e testar acesso por leitor.
-A orientação final pede GitHub, embora páginas anteriores aceitem pasta compartilhada. A equipe deve registrar o endereço do repositório publicado e o link do vídeo no PDF de submissão e verificar ambos em janela anônima.
-MFA e outras configurações pessoais permanecem para verificação dos titulares. O checklist não presume acesso público ao Drive nem que os links tenham sido testados em janela anônima.
+Integrante A · Participação técnica. Publicou o projeto no GitHub e executou o notebook no Colab. Evidências disponíveis para conferência: repositório publicado e notebook 03-analise-de-dados/Survival_Energy_integrado.ipynb.
+Integrante B · Documentação da disciplina 1 (Matriz, RACI, Graficos). revisão.
+Integrante C · Vídeo. Atividade prevista: preparar o vídeo de apresentação. Após a conclusão, registrar a atividade realizada, a data e o link da gravação: .
+Integrante D · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas.
+Integrante E · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas.
