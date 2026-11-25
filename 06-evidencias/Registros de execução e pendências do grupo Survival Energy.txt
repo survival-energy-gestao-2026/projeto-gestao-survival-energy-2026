@@ -10,13 +10,21 @@ Decisões esperadas: aceitar ou corrigir premissas; atribuir revisão de cada re
 Data e horário: ____________________. Canal: ____________________. Participantes por código A–E: ____________________.
 Pauta efetivamente discutida: ____________________. Decisões e justificativas: ____________________. Pendências, responsáveis e prazos: ____________________.
 Aceite A: ____________________. Aceite B: ____________________. Aceite C: ____________________. Aceite D: ____________________. Aceite E: ____________________. Registrar data de cada aceite. Não preencher assinaturas ou concordâncias em nome de outra pessoa.
-4 Contribuições individuais
-A — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
-B — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
-C — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
-D — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
-E — atividades realmente realizadas: ____________________; arquivos/evidências: ____________________; revisão: ____________________.
-A identificação completa e os RAs devem ser acrescentados somente à versão enviada diretamente ao professor, conforme a orientação da turma. A versão do Drive mantém os códigos.
+4 Participação do grupo — registro preliminar de 24/11/2026
+
+O relato disponível indica a participação de dois integrantes na parte técnica. Um terceiro integrante ficou responsável pelo vídeo. A equipe ainda precisa associar cada registro ao código A–E já usado na matriz RACI.
+
+Código [__] · Participação técnica. Publicou o projeto no GitHub e executou o notebook no Colab. Evidências disponíveis para conferência: repositório publicado e notebook 03-analise-de-dados/Survival_Energy_integrado.ipynb. Outras atividades realizadas: [preencher].
+
+Código [__] · Participação técnica informada. Atividade específica realizada: [preencher com o colega]. Arquivo, revisão ou resultado correspondente: [preencher].
+
+Código [__] · Vídeo. Atividade prevista: preparar o vídeo de apresentação. Após a conclusão, registrar a atividade realizada, a data e o link da gravação: [preencher].
+
+Código [__] · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas: [preencher].
+Código [__] · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas: [preencher].
+
+Na revisão, cada integrante confere sua descrição. Registrem os aceites na seção 3. No Apêndice A da cópia privada enviada ao professor, identifiquem os integrantes pelos nomes completos e RAs e transcrevam as contribuições confirmadas.
+
 5 Pendências que exigem participação real
 Revisar e aceitar as entregas técnicas; registrar atas e pautas efetivamente enviadas; comprovar contribuições; obter a validação de andamento do professor; gravar o vídeo com todos; completar o link do vídeo e testar acesso por leitor.
 A orientação final pede GitHub, embora páginas anteriores aceitem pasta compartilhada. A equipe deve registrar o endereço do repositório publicado e o link do vídeo no PDF de submissão e verificar ambos em janela anônima.
