@@ -17,5 +17,5 @@ Manter este documento na pasta 02. Gestão de projetos. Salvar capturas datadas 
 Nome sugerido: Backlog_AAAA-MM-DD_Sprint-N. Em cada novo registro, informar a data, os cartões que mudaram de status e o que foi entregue. As capturas registram um momento; o acompanhamento continua no Trello.
 As capturas e o registro do quadro estão na pasta 06-evidencias deste repositório.
 Situação registrada
-Na consulta de 19/10/2026, havia 4 cartões na Sprint 1, 6 na Sprint 2 e 6 na Sprint 3. As listas “Em andamento”, “Em revisão” e “Concluído” estavam vazias. A execução das funcionalidades ainda precisa ser confirmada pelo grupo; o registro comprova o planejamento inicial.
+Na consulta de 19/10/2026, havia 4 cartões na Sprint 1, 6 na Sprint 2 e 6 na Sprint 3. As listas “Em andamento”, “Em revisão” e “Concluído” estavam vazias. Esta consulta documenta a distribuição inicial das histórias em 19/10/2026.
 O acesso ao quadro depende das permissões do Trello. O link neste documento não concede acesso automaticamente. Não incluir nomes completos, RAs ou dados pessoais nos registros compartilhados.

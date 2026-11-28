@@ -3,7 +3,7 @@ Data da consulta: 19/10/2026 (America/Sao_Paulo).
 Fonte: https://trello.com/b/nQMtOsug/backlog-survival-energy
 Registro textual obtido do quadro. As capturas anexas mostram partes visíveis da tela.
 
-Situação: 16 histórias nas listas de planejamento; execução a confirmar pelo grupo.
+Situação: 16 histórias nas listas de planejamento; nenhum cartão constava na lista de concluídos naquela data.
 As listas de Sprint indicam planejamento. Não indicam início ou conclusão de uma funcionalidade.
 
 Sprint 1: 4 cartão(ões).
