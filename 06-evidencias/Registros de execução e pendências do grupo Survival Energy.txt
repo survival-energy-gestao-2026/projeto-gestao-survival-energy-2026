@@ -7,11 +7,10 @@ Data e horário: 20/10/2026. Canal:Discord. Participantes por código A–E: A, 
 Pauta efetivamente discutida: Tema e iniciação do projeto. Pendências, responsáveis e prazos: A = Disciplina 1, B = Disciplina 2, C = Disciplina 3, D = Disciplina 4, E = Disciplina 5.
 Aceite A: 19/10/2026. Aceite B: 19/10/2026 . Aceite C: 22/10/2026. Aceite D: 21/10/2026. Aceite E: 24/11/2026. 
 
-O relato disponível indica a participação de dois integrantes na parte técnica. Um terceiro integrante ficou responsável pelo vídeo.
-
 Integrante A publicou o repositório no GitHub e executou o notebook no Google Colab.
 Integrante B participou da documentação de Gestão de Projetos, incluindo matriz RACI, gráficos e revisão.
-Integrante C ficou responsável pelo vídeo de apresentação. Em 27/11/2026, a gravação ainda estava pendente.
-Segundo o relato de 27/11/2026, os integrantes D e E não contribuíram para o projeto até essa data. A participação prevista abrangia Análise de Dados e Segurança da Informação.
+Integrante C revisou o relatório e ficou responsável pelo vídeo de apresentação. Em 27/11/2026, a gravação ainda estava pendente.
+Integrante D conferiu os gráficos no Colab.
+Segundo o relato de 27/11/2026, o integrante E não contribuiu para o projeto até essa data.
 
 O grupo informou que recebeu o sinal verde do professor Felipe.
