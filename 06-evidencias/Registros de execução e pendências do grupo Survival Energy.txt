@@ -12,5 +12,5 @@ O relato disponível indica a participação de dois integrantes na parte técni
 Integrante A · Participação técnica. Publicou o projeto no GitHub e executou o notebook no Colab. Evidências disponíveis para conferência: repositório publicado e notebook 03-analise-de-dados/Survival_Energy_integrado.ipynb.
 Integrante B · Documentação da disciplina 1 (Matriz, RACI, Graficos). revisão.
 Integrante C · Vídeo. Atividade prevista: preparar o vídeo de apresentação. Após a conclusão, registrar a atividade realizada, a data e o link da gravação: .
-Integrante D · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas.
-Integrante E · Contribuição a confirmar na revisão da equipe. Atividade e evidência, caso apresentadas.
+Integrante D · Segundo o relato recebido em 27/11/2026, não contribuiu para o projeto até essa data. A equipe havia previsto a participação de D e E nas disciplinas 2 (Análise de Dados) e 3 (Segurança da Informação).
+Integrante E · Segundo o relato recebido em 27/11/2026, não contribuiu para o projeto até essa data. A equipe havia previsto a participação de D e E nas disciplinas 2 (Análise de Dados) e 3 (Segurança da Informação).
